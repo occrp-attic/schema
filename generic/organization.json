@@ -1,17 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "organization.json#",
+  "id": "http://schema.occrp.org/generic/organization.json#",
   "title": "Organization",
   "description": "A group with a common purpose or reason for existence that goes beyond the set of people belonging to it",
   "type": "object",
   "oneOf": [
-      {"$ref": "any.json#"}
+      {"$ref": "http://schema.occrp.org/generic/any.json#"}
   ],
   "properties": {
-    "id": {
-      "description": "The organization's unique identifier",
-      "type": ["string", "null"]
-    },
     "classification": {
       "description": "An organization category, e.g. committee",
       "type": ["string", "null"]
@@ -22,7 +18,7 @@
     },
     "parent": {
       "description": "The organization that contains this organization",
-      "$ref": "organization.json#"
+      "$ref": "http://schema.occrp.org/generic/organization.json#"
     },
     "area_id": {
       "description": "The ID of the geographic area to which this organization is related",
@@ -55,21 +51,21 @@
       "description": "Means of contacting the organization",
       "type": "array",
       "items": {
-        "$ref": "contact_detail.json#"
+        "$ref": "http://schema.occrp.org/generic/contact_detail.json#"
       }
     },
     "memberships": {
       "description": "The memberships of the members of the organization and of the organization itself",
       "type": "array",
       "items": {
-        "$ref": "membership.json#"
+        "$ref": "http://schema.occrp.org/generic/membership.json#"
       }
     },
     "children": {
       "description": "The sub-organizations of the organization",
       "type": "array",
       "items": {
-        "$ref": "organization.json#"
+        "$ref": "http://schema.occrp.org/generic/organization.json#"
       }
     }
   }

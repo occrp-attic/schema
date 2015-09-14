@@ -1,17 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "person.json#",
+  "id": "http://schema.occrp.org/generic/person.json#",
   "title": "Person",
   "description": "A real person, alive or dead",
   "type": "object",
   "oneOf": [
-      {"$ref": "any.json#"}
+      {"$ref": "http://schema.occrp.org/generic/any.json#"}
   ],
   "properties": {
-    "id": {
-      "description": "The person's unique identifier",
-      "type": ["string", "null"]
-    },
     "family_name": {
       "description": "One or more family names",
       "type": ["string", "null"]
@@ -72,28 +68,24 @@
       "description": "An extended account of a person's life",
       "type": ["string", "null"]
     },
-    "national_identity": {
-      "description": "A national identity",
-      "type": ["string", "null"]
-    },
     "residential_address": {
-      "$ref": "address.json"
+      "$ref": "http://schema.occrp.org/generic/address.json#"
     },
     "postal_address": {
-      "$ref": "address.json"
+      "$ref": "http://schema.occrp.org/generic/address.json#"
     },
     "contact_details": {
       "description": "Means of contacting the person",
       "type": "array",
       "items": {
-        "$ref": "contact_detail.json#"
+        "$ref": "http://schema.occrp.org/generic/contact_detail.json#"
       }
     },
     "memberships": {
       "description": "The person's memberships",
       "type": "array",
       "items": {
-        "$ref": "membership.json#"
+        "$ref": "http://schema.occrp.org/generic/membership.json#"
       }
     }
   }

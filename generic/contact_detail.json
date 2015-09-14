@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "contact_detail.json#",
+  "id": "http://schema.occrp.org/generic/contact_detail.json#",
   "title": "Contact detail",
   "description": "A means of contacting an entity",
   "type": "object",
@@ -47,7 +47,7 @@
       "description": "URLs to documents from which the resource is derived",
       "type": "array",
       "items": {
-        "$ref": "link.json#"
+        "$ref": "http://schema.occrp.org/generic/link.json#"
       }
     }
   }

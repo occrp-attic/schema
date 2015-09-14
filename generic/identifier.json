@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "identifier.json#",
+  "id": "http://schema.occrp.org/generic/identifier.json#",
   "title": "Identifier",
   "description": "An issued identifier",
   "type": "object",

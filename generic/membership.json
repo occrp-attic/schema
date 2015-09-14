@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "membership.json#",
+  "id": "http://schema.occrp.org/generic/membership.json#",
   "title": "Membership",
   "description": "A relationship between a member and an organization",
   "type": "object",
@@ -27,7 +27,7 @@
     },
     "person": {
       "description": "The person who is a member of the organization",
-      "$ref": "person.json#"
+      "$ref": "http://schema.occrp.org/generic/person.json#"
     },
     "organization_id": {
       "description": "The ID of the organization in which the person or organization is a member",
@@ -35,15 +35,11 @@
     },
     "organization": {
       "description": "The organization in which the person or organization is a member",
-      "$ref": "organization.json#"
+      "$ref": "http://schema.occrp.org/generic/organization.json#"
     },
     "post_id": {
       "description": "The ID of the post held by the member in the organization through this membership",
       "type": ["string", "null"]
-    },
-    "post": {
-      "description": "The post held by the member in the organization through this membership",
-      "$ref": "post.json#"
     },
     "on_behalf_of_id": {
       "description": "The ID of the organization on whose behalf the person is a member of the organization",
@@ -51,7 +47,7 @@
     },
     "on_behalf_of": {
       "description": "The organization on whose behalf the person is a member of the organization",
-      "$ref": "organization.json#"
+      "$ref": "http://schema.occrp.org/generic/organization.json#"
     },
     "area_id": {
       "description": "The ID of the geographic area to which this membership is related",
@@ -71,14 +67,14 @@
       "description": "Means of contacting the member of the organization",
       "type": "array",
       "items": {
-        "$ref": "contact_detail.json#"
+        "$ref": "http://schema.occrp.org/generic/contact_detail.json#"
       }
     },
     "links": {
       "description": "URLs to documents about the membership",
       "type": "array",
       "items": {
-        "$ref": "link.json#"
+        "$ref": "http://schema.occrp.org/generic/link.json#"
       }
     },
     "created_at": {
@@ -95,7 +91,7 @@
       "description": "URLs to documents from which the resource is derived",
       "type": "array",
       "items": {
-        "$ref": "link.json#"
+        "$ref": "http://schema.occrp.org/generic/link.json#"
       }
     }
   }

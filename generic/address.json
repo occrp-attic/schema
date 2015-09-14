@@ -1,44 +1,27 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "address.json#",
+  "id": "http://schema.occrp.org/generic/address.json#",
   "title": "Address",
-  "oneOf": [
-    {
-      "type": ["string", "null"],
-      "minLength": 2
+  "description": "An address object",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "text"
     },
-    {
-      "name": "Address",
-      "description": "An address object",
-      "type": "object",
-      "properties": {
-        "street_address": {
-          "type": "string"
-        },
-        "locality": {
-          "type": "string"
-        },
-        "region": {
-          "type": "string"
-        },
-        "postal_code": {
-          "type": "string"
-        },
-        "country": {
-          "type": "string"
-        }
-      },
-      "anyOf": [
-        {
-          "required": ["street_address"]
-        },
-        {
-          "required": ["postal_code"]
-        },
-        {
-          "required": ["locality", "country"]
-        }
-      ]
+    "street_address": {
+      "type": "string"
+    },
+    "locality": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
     }
-  ]
+  }
 }
