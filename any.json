@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "any.json#",
+  "title": "Any entity",
+  "type": "object",
+  "properties": {
+    "name": {
+        "description": "A primary name, e.g. a legally recognized name",
+        "type": ["string", "null"],
+        "minLength": 1
+    },
+    "identifiers": {
+      "type": "array",
+      "items": {"$ref": "identifier.json#"}
+    },
+    "other_names": {
+      "description": "Alternate or former names",
+      "type": "array",
+      "items": {"$ref": "other_name.json#"}
+    },
+    "links": {
+      "description": "URLs to documents about the person",
+      "type": "array",
+      "items": {"$ref": "link.json#"}
+    },
+    "created_at": {
+      "description": "The time at which the resource was created",
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "updated_at": {
+      "description": "The time at which the resource was last modified",
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "sources": {
+      "description": "URLs to documents from which the resource is derived",
+      "type": "array",
+      "items": {"$ref": "link.json#"}
+    }
+  },
+  "required": ["name"]
+}

@@ -3,9 +3,7 @@
 This repository features schema for entity types (such as people,
 companies, assets etc.) commonly seen in OCCRP-managed datasets.
 
-Inspired by:
+Based on:
 
 * [Popolo](https://github.com/popolo-project/popolo-spec)
 * [OpenCorporates Schema](https://github.com/openc/openc-schema)
-
-
