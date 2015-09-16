@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.occrp.org/generic/company.json#",
+  "title": "Company",
   "description": "A company in OpenCorporates",
   "type": "object",
   "oneOf": [
