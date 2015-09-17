@@ -6,7 +6,8 @@
   "properties": {
     "id": {
       "description": "The person's unique identifier",
-      "type": "string"
+      "type": "string",
+      "rdfType": "id"
     },
     "jurisdiction_code": {
       "type": "string",
