@@ -19,6 +19,6 @@
         "items": {
             "$ref": "http://schema.occrp.org/generic/land.json#"
         }
-      },
+      }
   }
 }
