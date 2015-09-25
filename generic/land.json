@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://schema.occrp.org/generic/land.json#",
+  "title": "Land",
+  "description": "A parcel of land",
+  "type": "object",
+  "oneOf": [
+      {"$ref": "http://schema.occrp.org/generic/any.json#"}
+  ],
+  "properties": {
+    "register_name": {
+        "type": ["string", "null"]
+    },
+    "parcel_number": {
+        "type": ["string", "null"]
+    },
+    "parcel_name": {
+        "type": ["string", "null"]
+    },
+    "parcel_area": {
+        "type": ["integer", "null"],
+    },
+    "parcel_area_units": {
+        "type": ["string", "null"],
+    },
+    "description": {
+        "type": ["string", "null"]
+    },
+    "usage_code": {
+        "type": ["string", "null"]
+    },
+    "usage_name": {
+        "type": ["string", "null"]
+    },
+    "valuation": {
+        "type": ["integer", "null"]
+    },
+    "valuation_currency": {
+        "type": ["string", "null"]
+    },
+    "valuation_date": {
+        "type": ["string", "null"],
+        "format": "date"
+    },
+    "owners": {
+        "type": "array",
+        "items": {
+            "$ref": "http://schema.occrp.org/generic/any.json#"
+        }
+    }
+  }
+}
