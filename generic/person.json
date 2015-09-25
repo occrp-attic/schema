@@ -5,7 +5,7 @@
   "description": "A real person, alive or dead",
   "type": "object",
   "oneOf": [
-      {"$ref": "http://schema.occrp.org/generic/any.json#"}
+      {"$ref": "http://schema.occrp.org/generic/legal_person.json#"}
   ],
   "properties": {
     "family_name": {

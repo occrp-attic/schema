@@ -9,12 +9,6 @@
       "type": "string",
       "rdfType": "id"
     },
-    "jurisdiction_code": {
-      "type": "string",
-      "description": "Code representing the jurisdiction/company register which is the canonical record of the company’s existence. Uses underscored ISO 3166-2 to represent it, e.g. es for Spain, us_de for Delaware",
-      "minLength": 2,
-      "maxLength": 5
-    },
     "name": {
         "description": "A primary name, e.g. a legally recognized name",
         "type": ["string", "null"],
