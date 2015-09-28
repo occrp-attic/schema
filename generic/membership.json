@@ -17,37 +17,15 @@
       "description": "The role that the member fulfills in the organization",
       "type": ["string", "null"]
     },
-    "member": {
-      "description": "The person or organization that is a member of the organization",
-      "type": ["object", "null"]
-    },
-    "person_id": {
-      "description": "The ID of the person who is a member of the organization",
-      "type": ["string", "null"],
-      "rdfName": "person",
-      "rdfType": "id",
-      "rdfReverseName": "memberships"
-    },
     "person": {
       "description": "The person who is a member of the organization",
-      "$ref": "http://schema.occrp.org/generic/person.json#",
-      "rdfReverseName": "memberships"
-    },
-    "organization_id": {
-      "description": "The ID of the organization in which the person or organization is a member",
-      "type": ["string", "null"],
-      "rdfName": "organization",
-      "rdfType": "id",
+      "$ref": "http://schema.occrp.org/generic/legal_person.json#",
       "rdfReverseName": "memberships"
     },
     "organization": {
       "description": "The organization in which the person or organization is a member",
       "$ref": "http://schema.occrp.org/generic/organization.json#",
       "rdfReverseName": "memberships"
-    },
-    "on_behalf_of_id": {
-      "description": "The ID of the organization on whose behalf the person is a member of the organization",
-      "type": ["string", "null"]
     },
     "on_behalf_of": {
       "description": "The organization on whose behalf the person is a member of the organization",

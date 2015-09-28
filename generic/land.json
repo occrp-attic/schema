@@ -38,6 +38,9 @@
     "valuation_currency": {
         "type": ["string", "null"]
     },
+    "address": {
+        "$ref": "http://schema.occrp.org/generic/address.json#"
+    },
     "valuation_date": {
         "type": ["string", "null"],
         "format": "date"
