@@ -27,7 +27,7 @@
     "owners": {
         "type": "array",
         "items": {
-            "$ref": "http://schema.occrp.org/generic/any.json#"
+            "$ref": "http://schema.occrp.org/generic/legal_person.json#"
         }
     }
   }
