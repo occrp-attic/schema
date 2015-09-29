@@ -26,7 +26,7 @@
     },
     "owners": {
         "type": "array",
-        "rdfReverseName": "assets",
+        "rdfReverse": "assets",
         "items": {
             "$ref": "http://schema.occrp.org/generic/legal_person.json#"
         }

@@ -14,11 +14,11 @@
       "minLength": 2,
       "maxLength": 5
     },
-    "lands": {
+    "assets": {
       "type": "array",
-      "rdfReverseName": "owners",
+      "rdfReverse": "owners",
       "items": {
-        "$ref": "http://schema.occrp.org/generic/land.json#"
+        "$ref": "http://schema.occrp.org/generic/asset.json#"
       }
     }
   }

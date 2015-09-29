@@ -20,12 +20,12 @@
     "person": {
       "description": "The person who is a member of the organization",
       "$ref": "http://schema.occrp.org/generic/legal_person.json#",
-      "rdfReverseName": "memberships"
+      "rdfReverse": "memberships"
     },
     "organization": {
       "description": "The organization in which the person or organization is a member",
       "$ref": "http://schema.occrp.org/generic/organization.json#",
-      "rdfReverseName": "memberships"
+      "rdfReverse": "memberships"
     },
     "on_behalf_of": {
       "description": "The organization on whose behalf the person is a member of the organization",

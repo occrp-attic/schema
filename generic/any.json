@@ -10,9 +10,9 @@
       "rdfType": "id"
     },
     "name": {
-        "description": "A primary name, e.g. a legally recognized name",
-        "type": ["string", "null"],
-        "minLength": 1
+      "description": "A primary name, e.g. a legally recognized name",
+      "type": ["string", "null"],
+      "minLength": 1
     },
     "identifiers": {
       "type": "array",
@@ -39,9 +39,11 @@
       "format": "date-time"
     },
     "sources": {
-      "description": "URLs to documents from which the resource is derived",
+      "description": "Name of the source from which data was extracted",
       "type": "array",
-      "items": {"$ref": "http://schema.occrp.org/generic/link.json#"}
+      "items": {
+        "type": ["string", "null"]
+      }
     }
   },
   "required": ["name"]

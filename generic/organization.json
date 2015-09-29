@@ -56,7 +56,7 @@
     "parents": {
       "description": "The organization that contains this organization",
       "type": "array",
-      "rdfReverseName": "children",
+      "rdfReverse": "children",
       "items": {
         "$ref": "http://schema.occrp.org/generic/organization.json#"
       }
@@ -64,7 +64,7 @@
     "children": {
       "description": "The sub-organizations of the organization",
       "type": "array",
-      "rdfReverseName": "parents",
+      "rdfReverse": "parents",
       "items": {
         "$ref": "http://schema.occrp.org/generic/organization.json#"
       }
