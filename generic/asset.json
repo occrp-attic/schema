@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.occrp.org/generic/land.json#",
-  "title": "Land",
-  "description": "A parcel of land",
+  "title": "Asset",
+  "description": "An asset owned by one or several owners",
   "type": "object",
   "oneOf": [
       {"$ref": "http://schema.occrp.org/generic/any.json#"}
@@ -26,6 +26,7 @@
     },
     "owners": {
         "type": "array",
+        "rdfReverseName": "assets",
         "items": {
             "$ref": "http://schema.occrp.org/generic/legal_person.json#"
         }
