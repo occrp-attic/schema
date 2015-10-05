@@ -25,11 +25,7 @@
     "organization": {
       "description": "The organization in which the person or organization is a member",
       "$ref": "http://schema.occrp.org/generic/organization.json#",
-      "rdfReverse": "memberships"
-    },
-    "on_behalf_of": {
-      "description": "The organization on whose behalf the person is a member of the organization",
-      "$ref": "http://schema.occrp.org/generic/organization.json#"
+      "rdfReverse": "members"
     },
     "start_date": {
       "description": "The date on which the relationship began",

@@ -80,13 +80,6 @@
       "items": {
         "$ref": "http://schema.occrp.org/generic/contact_detail.json#"
       }
-    },
-    "memberships": {
-      "description": "The person's memberships",
-      "type": "array",
-      "items": {
-        "$ref": "http://schema.occrp.org/generic/membership.json#"
-      }
     }
   }
 }

@@ -20,6 +20,14 @@
       "items": {
         "$ref": "http://schema.occrp.org/generic/asset.json#"
       }
+    },
+    "memberships": {
+      "type": "array",
+      "description": "The person's memberships",
+      "rdfReverse": "person",
+      "items": {
+        "$ref": "http://schema.occrp.org/generic/membership.json#"
+      }
     }
   }
 }
