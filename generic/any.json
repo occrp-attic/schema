@@ -5,11 +5,13 @@
   "type": "object",
   "properties": {
     "id": {
+      "title": "ID",
       "description": "The person's unique identifier",
       "type": "string",
       "rdfType": "id"
     },
     "name": {
+      "title": "Name",
       "description": "A primary name, e.g. a legally recognized name",
       "type": ["string", "null"],
       "minLength": 1

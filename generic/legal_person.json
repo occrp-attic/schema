@@ -22,6 +22,7 @@
       }
     },
     "memberships": {
+      "title": "Memberships",
       "type": "array",
       "description": "The person's memberships",
       "rdfReverse": "person",

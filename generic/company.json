@@ -10,6 +10,7 @@
   "properties": {
     "company_number": {
       "type": "string",
+      "title": "Company number",
       "description": "unique identifier given by the corporate register with which it is incorporated",
       "minLength": 1
     },
