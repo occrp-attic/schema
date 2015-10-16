@@ -4,6 +4,7 @@
   "title": "Address",
   "description": "An address object",
   "type": "object",
+  "inline": true,
   "properties": {
     "text": {
       "type": "text"

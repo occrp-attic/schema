@@ -4,16 +4,19 @@
   "title": "Membership",
   "description": "A relationship between a member and an organization",
   "type": "object",
+  "inline": true,
   "properties": {
     "id": {
       "description": "The membership's unique identifier",
       "type": ["string", "null"]
     },
     "label": {
+      "title": "Label",
       "description": "A label describing the membership",
       "type": ["string", "null"]
     },
     "role": {
+      "title": "Role",
       "description": "The role that the member fulfills in the organization",
       "type": ["string", "null"]
     },
@@ -23,6 +26,7 @@
       "rdfReverse": "memberships"
     },
     "organization": {
+      "title": "Organization",
       "description": "The organization in which the person or organization is a member",
       "$ref": "http://schema.occrp.org/generic/organization.json#",
       "rdfReverse": "members"

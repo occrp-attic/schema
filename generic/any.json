@@ -6,6 +6,7 @@
   "properties": {
     "id": {
       "title": "ID",
+      "hidden": true,
       "description": "The person's unique identifier",
       "type": "string",
       "rdfType": "id"

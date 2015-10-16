@@ -4,6 +4,7 @@
   "title": "Link",
   "description": "A URL",
   "type": "object",
+  "inline": true,
   "properties": {
     "url": {
       "description": "A URL",
