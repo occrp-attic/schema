@@ -14,27 +14,28 @@
       "description": "unique identifier given by the corporate register with which it is incorporated",
       "minLength": 1
     },
-    "incorporation_date": {
-      "type": "string",
-      "format": "date"
-    },
     "retrieved_at": {
       "type": "string",
       "format": "date-time"
     },
     "current_status": {
+      "title": "Current status",
       "type": ["string", "null"]
     },
     "company_type": {
+      "title": "Company type",
       "type": ["string", "null"]
     },
     "registry_url": {
+      "title": "Company register link",
       "type": "string",
       "format": "uri"
     },
     "website": {
+      "title": "Website",
       "type": "string",
-      "minLength": 5
+      "minLength": 5,
+      "format": "uri"
     },
     "telephone_number": {
       "type": "string",
