@@ -29,7 +29,8 @@
       "type": ["string", "null"]
     },
     "registry_url": {
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "website": {
       "type": "string",
