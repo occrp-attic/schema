@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/land.json#",
+  "id": "https://schema.occrp.org/generic/land.json#",
   "title": "Land",
   "description": "A parcel of land",
   "type": "object",
   "oneOf": [
-      {"$ref": "http://schema.occrp.org/generic/asset.json#"}
+      {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],
   "properties": {
     "parcel_number": {

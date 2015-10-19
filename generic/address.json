@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/address.json#",
+  "id": "https://schema.occrp.org/generic/address.json#",
   "title": "Address",
   "description": "An address object",
   "type": "object",

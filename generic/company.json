@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/company.json#",
+  "id": "https://schema.occrp.org/generic/company.json#",
   "title": "Company",
   "description": "A company in OpenCorporates",
   "type": "object",
   "oneOf": [
-      {"$ref": "http://schema.occrp.org/generic/organization.json#"}
+      {"$ref": "https://schema.occrp.org/generic/organization.json#"}
   ],
   "properties": {
     "company_number": {
@@ -44,24 +44,24 @@
       "minLength": 4
     },
     "registered_address": {
-      "$ref": "http://schema.occrp.org/generic/address.json"
+      "$ref": "https://schema.occrp.org/generic/address.json"
     },
     "headquarters_address": {
-      "$ref": "http://schema.occrp.org/generic/address.json"
+      "$ref": "https://schema.occrp.org/generic/address.json"
     },
     "mailing_address": {
-      "$ref": "http://schema.occrp.org/generic/address.json"
+      "$ref": "https://schema.occrp.org/generic/address.json"
     },
     "filings": {
       "type": "array",
       "items": {
-        "$ref": "http://schema.occrp.org/generic/filing.json"
+        "$ref": "https://schema.occrp.org/generic/filing.json"
       }
     },
     "industry_codes": {
       "type": "array",
       "items": {
-        "$ref": "http://schema.occrp.org/generic/industry_code.json#"
+        "$ref": "https://schema.occrp.org/generic/industry_code.json#"
       }
     }
   },

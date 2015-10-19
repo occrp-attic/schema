@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/payment.json#",
+  "id": "https://schema.occrp.org/generic/payment.json#",
   "title": "Payment",
   "description": "A financial payment from one party to another",
   "type": "object",

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/filing.json#",
+  "id": "https://schema.occrp.org/generic/filing.json#",
   "title": "Filing",
   "description": "A statutory filing",
   "type": "object",

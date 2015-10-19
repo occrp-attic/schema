@@ -1,15 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/building.json#",
+  "id": "https://schema.occrp.org/generic/building.json#",
   "title": "Building",
   "description": "A building",
   "type": "object",
   "oneOf": [
-      {"$ref": "http://schema.occrp.org/generic/asset.json#"}
+      {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],
   "properties": {
     "address": {
-      "$ref": "http://schema.occrp.org/generic/address.json#"
+      "$ref": "https://schema.occrp.org/generic/address.json#"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/link.json#",
+  "id": "https://schema.occrp.org/generic/link.json#",
   "title": "Link",
   "description": "A URL",
   "type": "object",

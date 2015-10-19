@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/any.json#",
+  "id": "https://schema.occrp.org/generic/any.json#",
   "title": "Any entity",
   "type": "object",
   "properties": {
@@ -19,17 +19,17 @@
     },
     "identifiers": {
       "type": "array",
-      "items": {"$ref": "http://schema.occrp.org/generic/identifier.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/identifier.json#"}
     },
     "other_names": {
       "description": "Alternate or former names",
       "type": "array",
-      "items": {"$ref": "http://schema.occrp.org/generic/other_name.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/other_name.json#"}
     },
     "links": {
       "description": "URLs to documents about the person",
       "type": "array",
-      "items": {"$ref": "http://schema.occrp.org/generic/link.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/link.json#"}
     },
     "created_at": {
       "description": "The time at which the resource was created",

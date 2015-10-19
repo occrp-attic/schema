@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.occrp.org/generic/person.json#",
+  "id": "https://schema.occrp.org/generic/person.json#",
   "title": "Person",
   "description": "A real person, alive or dead",
   "type": "object",
   "oneOf": [
-      {"$ref": "http://schema.occrp.org/generic/legal_person.json#"}
+      {"$ref": "https://schema.occrp.org/generic/legal_person.json#"}
   ],
   "properties": {
     "family_name": {
@@ -69,16 +69,16 @@
       "type": ["string", "null"]
     },
     "residential_address": {
-      "$ref": "http://schema.occrp.org/generic/address.json#"
+      "$ref": "https://schema.occrp.org/generic/address.json#"
     },
     "postal_address": {
-      "$ref": "http://schema.occrp.org/generic/address.json#"
+      "$ref": "https://schema.occrp.org/generic/address.json#"
     },
     "contact_details": {
       "description": "Means of contacting the person",
       "type": "array",
       "items": {
-        "$ref": "http://schema.occrp.org/generic/contact_detail.json#"
+        "$ref": "https://schema.occrp.org/generic/contact_detail.json#"
       }
     }
   }
