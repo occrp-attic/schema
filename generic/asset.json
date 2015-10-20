@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://schema.occrp.org/generic/land.json#",
+  "id": "https://schema.occrp.org/generic/asset.json#",
   "title": "Asset",
   "description": "An asset owned by one or several owners",
   "type": "object",
@@ -10,22 +10,28 @@
   ],
   "properties": {
     "register_name": {
+        "title": "Register name",
         "type": ["string", "null"]
     },
     "description": {
+        "title": "Description",
         "type": ["string", "null"]
     },
     "valuation": {
+        "title": "Valuation",
         "type": ["integer", "null"]
     },
     "valuation_currency": {
+        "title": "Currency of valuation",
         "type": ["string", "null"]
     },
     "valuation_date": {
+        "title": "Date of valuation",
         "type": ["string", "null"],
         "format": "date"
     },
     "owners": {
+        "title": "Owners",
         "type": "array",
         "rdfReverse": "assets",
         "items": {
