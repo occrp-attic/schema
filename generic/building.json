@@ -4,6 +4,7 @@
   "title": "Building",
   "description": "A building",
   "type": "object",
+  "faIcon": "fa-map",
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],

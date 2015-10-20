@@ -22,7 +22,8 @@
       "type": "string"
     },
     "country": {
-      "type": "string"
+      "type": "string",
+      "format": "country-code"
     }
   }
 }

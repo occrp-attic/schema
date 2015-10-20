@@ -4,6 +4,7 @@
   "title": "Land",
   "description": "A parcel of land",
   "type": "object",
+  "faIcon": "fa-map",
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],

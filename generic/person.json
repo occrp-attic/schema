@@ -4,6 +4,7 @@
   "title": "Person",
   "description": "A real person, alive or dead",
   "type": "object",
+  "faIcon": "fa-user",
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/legal_person.json#"}
   ],
@@ -48,12 +49,12 @@
     "birth_date": {
       "description": "A date of birth",
       "type": ["string", "null"],
-      "pattern": "^[0-9]{4}(-[0-9]{2}){0,2}$"
+      "format": "date"
     },
     "death_date": {
       "description": "A date of death",
       "type": ["string", "null"],
-      "pattern": "^[0-9]{4}(-[0-9]{2}){0,2}$"
+      "format": "date"
     },
     "image": {
       "description": "A URL of a head shot",

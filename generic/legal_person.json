@@ -4,6 +4,7 @@
   "title": "Legal Person",
   "description": "An individual or company",
   "type": "object",
+  "faIcon": "fa-user-secret",
   "oneOf": [
     {"$ref": "https://schema.occrp.org/generic/any.json#"}
   ],
