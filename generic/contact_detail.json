@@ -4,6 +4,7 @@
   "title": "Contact detail",
   "description": "A means of contacting an entity",
   "type": "object",
+  "inline": true,
   "properties": {
     "label": {
       "description": "A human-readable label for the contact detail",
