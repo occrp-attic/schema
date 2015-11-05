@@ -5,8 +5,9 @@
   "description": "A company in OpenCorporates",
   "type": "object",
   "faIcon": "fa-suitcase",
-  "oneOf": [
-      {"$ref": "https://schema.occrp.org/generic/organization.json#"}
+  "anyOf": [
+      {"$ref": "https://schema.occrp.org/generic/organization.json#"},
+      {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],
   "properties": {
     "company_number": {
