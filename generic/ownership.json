@@ -43,12 +43,12 @@
     "owner": {
       "description": "The owner",
       "$ref": "https://schema.occrp.org/generic/legal_person.json#",
-      "rdfReverse": "memberships"
+      "rdfReverse": "properties"
     },
     "asset": {
       "title": "Asset",
       "description": "That which is owned",
-      "$ref": "https://schema.occrp.org/generic/asset.json#",
+      "$ref": "https://schema.occrp.org/generic/asset.json#"
     },
     "start_date": {
       "description": "The date on which the relationship began",

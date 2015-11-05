@@ -13,7 +13,7 @@
       "type": "array",
       "rdfReverse": "owners",
       "items": {
-        "$ref": "https://schema.occrp.org/generic/asset.json#"
+        "$ref": "https://schema.occrp.org/generic/ownership.json#"
       }
     },
     "memberships": {
