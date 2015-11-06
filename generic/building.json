@@ -2,9 +2,10 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/building.json#",
   "title": "Building",
+  "plural": "Buildings",
   "description": "A building",
   "type": "object",
-  "faIcon": "fa-map",
+  "faIcon": "fa-building",
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],

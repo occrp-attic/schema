@@ -11,7 +11,7 @@
   "properties": {
     "assets": {
       "type": "array",
-      "rdfReverse": "owners",
+      "rdfReverse": "owner",
       "items": {
         "$ref": "https://schema.occrp.org/generic/ownership.json#"
       }

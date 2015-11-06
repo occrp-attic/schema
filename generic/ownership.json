@@ -2,12 +2,15 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/ownership.json#",
   "title": "Ownership",
+  "plural": "Ownerships",
   "description": "An ownership relation between a legal entity and an asset",
   "type": "object",
+  "faIcon": "fa-link",
   "inline": false,
   "properties": {
     "id": {
       "description": "The ownership's unique identifier",
+      "hidden": true,
       "type": ["string", "null"]
     },
     "label": {
@@ -66,16 +69,6 @@
       "items": {
         "$ref": "https://schema.occrp.org/generic/link.json#"
       }
-    },
-    "created_at": {
-      "description": "The time at which the resource was created",
-      "type": ["string", "null"],
-      "format": "date-time"
-    },
-    "updated_at": {
-      "description": "The time at which the resource was last modified",
-      "type": ["string", "null"],
-      "format": "date-time"
     },
     "sources": {
       "description": "URLs to documents from which the resource is derived",

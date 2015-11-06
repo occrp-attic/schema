@@ -2,10 +2,11 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/company.json#",
   "title": "Company",
+  "plural": "Companies",
   "description": "A company",
   "type": "object",
   "faIcon": "fa-suitcase",
-  "anyOf": [
+  "allOf": [
       {"$ref": "https://schema.occrp.org/generic/organization.json#"},
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],

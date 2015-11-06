@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/address.json#",
   "title": "Address",
+  "plural": "Addresses",
   "description": "An address object",
   "type": "object",
   "inline": true,

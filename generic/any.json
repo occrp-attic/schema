@@ -41,16 +41,6 @@
       "type": "array",
       "items": {"$ref": "https://schema.occrp.org/generic/link.json#"}
     },
-    "created_at": {
-      "description": "The time at which the resource was created",
-      "type": ["string", "null"],
-      "format": "date-time"
-    },
-    "updated_at": {
-      "description": "The time at which the resource was last modified",
-      "type": ["string", "null"],
-      "format": "date-time"
-    },
     "sources": {
       "description": "Name of the source from which data was extracted",
       "type": "array",

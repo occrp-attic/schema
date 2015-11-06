@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/person.json#",
   "title": "Person",
+  "plural": "Persons",
   "description": "A real person, alive or dead",
   "type": "object",
   "faIcon": "fa-user",

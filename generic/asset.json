@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/asset.json#",
   "title": "Asset",
+  "plural": "Assets",
   "description": "An asset owned by one or several owners",
   "type": "object",
   "faIcon": "fa-map",
