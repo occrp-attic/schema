@@ -4,6 +4,7 @@
   "title": "Land",
   "plural": "Lands",
   "description": "A parcel of land",
+  "sortIndex": 66,
   "type": "object",
   "faIcon": "fa-map",
   "oneOf": [
@@ -15,14 +16,17 @@
         "type": ["string", "null"]
     },
     "parcel_name": {
+        "sortIndex": 80,
         "title": "Parcel name",
         "type": ["string", "null"]
     },
     "parcel_area": {
+        "sortIndex": 79,
         "title": "Parcel area",
         "type": ["integer", "null"]
     },
     "parcel_area_units": {
+        "sortIndex": 78,
         "title": "Parcel number (unit)",
         "type": ["string", "null"]
     },

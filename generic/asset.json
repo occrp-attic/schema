@@ -31,12 +31,12 @@
         "type": ["string", "null"],
         "format": "date"
     },
-    "owners": {
+    "ownerships": {
         "title": "Owners",
         "type": "array",
         "rdfReverse": "assets",
         "items": {
-            "$ref": "https://schema.occrp.org/generic/legal_person.json#"
+            "$ref": "https://schema.occrp.org/generic/ownership.json#"
         }
     }
   }

@@ -7,11 +7,13 @@
   "inline": true,
   "properties": {
     "identifier": {
+      "title": "Identifier",
       "description": "An issued identifier, e.g. a DUNS number",
       "type": "string",
       "required": true
     },
     "scheme": {
+      "title": "Scheme",
       "description": "An identifier scheme, e.g. DUNS",
       "type": ["string", "null"]
     }

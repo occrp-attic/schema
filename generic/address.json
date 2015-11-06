@@ -8,18 +8,23 @@
   "inline": true,
   "properties": {
     "text": {
+      "title": "Text",
       "type": "text"
     },
     "street_address": {
+      "title": "Street address",
       "type": "string"
     },
     "locality": {
+      "title": "City/Town",
       "type": "string"
     },
     "region": {
+      "title": "Region",
       "type": "string"
     },
     "postal_code": {
+      "title": "Postal code",
       "type": "string"
     },
     "country": {

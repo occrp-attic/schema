@@ -2,8 +2,9 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/person.json#",
   "title": "Person",
-  "plural": "Persons",
+  "plural": "People",
   "description": "A real person, alive or dead",
+  "sortIndex": 100,
   "type": "object",
   "faIcon": "fa-user",
   "oneOf": [
@@ -11,72 +12,86 @@
   ],
   "properties": {
     "family_name": {
+      "title": "Family name",
       "description": "One or more family names",
       "type": ["string", "null"]
     },
     "given_name": {
+      "title": "Given name",
       "description": "One or more primary given names",
       "type": ["string", "null"]
     },
     "additional_name": {
+      "title": "Secondary given name",
       "description": "One or more secondary given names",
       "type": ["string", "null"]
     },
     "honorific_prefix": {
+      "title": "Honorific prefix",
+      "hidden": true,
       "description": "One or more honorifics preceding a person's name",
       "type": ["string", "null"]
     },
     "honorific_suffix": {
+      "title": "Honorific suffix",
+      "hidden": true,
       "description": "One or more honorifics following a person's name",
       "type": ["string", "null"]
     },
     "patronymic_name": {
+      "title": "Patronymic",
       "description": "One or more patronymic names",
       "type": ["string", "null"]
     },
-    "sort_name": {
-      "description": "A name to use in a lexicographically ordered list",
-      "type": ["string", "null"]
-    },
     "email": {
+      "title": "E-Mail",
       "description": "A preferred email address",
       "type": ["string", "null"],
       "format": "email"
     },
     "gender": {
+      "title": "Gender",
       "description": "A gender",
       "type": ["string", "null"]
     },
     "birth_date": {
+      "title": "Birth date",
       "description": "A date of birth",
       "type": ["string", "null"],
       "format": "date"
     },
     "death_date": {
+      "title": "Death date",
       "description": "A date of death",
       "type": ["string", "null"],
       "format": "date"
     },
     "image": {
       "description": "A URL of a head shot",
+      "hidden": true,
       "type": ["string", "null"],
       "format": "uri"
     },
     "summary": {
+      "title": "Summary",
       "description": "A one-line account of a person's life",
       "type": ["string", "null"]
     },
     "biography": {
+      "title": "Biography",
       "description": "An extended account of a person's life",
       "type": ["string", "null"]
     },
     "residential_address": {
+      "title": "Residential address",
       "$ref": "https://schema.occrp.org/generic/address.json#"
     },
     "postal_address": {
+      "title": "Postal address",
       "$ref": "https://schema.occrp.org/generic/address.json#"
     },
     "contact_details": {
+      "title": "Contact details",
       "description": "Means of contacting the person",
       "type": "array",
       "items": {

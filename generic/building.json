@@ -4,6 +4,7 @@
   "title": "Building",
   "plural": "Buildings",
   "description": "A building",
+  "sortIndex": 65,
   "type": "object",
   "faIcon": "fa-building",
   "oneOf": [

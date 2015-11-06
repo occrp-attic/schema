@@ -4,27 +4,26 @@
   "title": "Ownership",
   "plural": "Ownerships",
   "description": "An ownership relation between a legal entity and an asset",
+  "sortIndex": 30,
   "type": "object",
   "faIcon": "fa-link",
   "inline": false,
   "properties": {
     "id": {
+      "title": "ID",
       "description": "The ownership's unique identifier",
       "hidden": true,
       "type": ["string", "null"]
     },
-    "label": {
-      "title": "Label",
-      "description": "A label describing the ownership",
-      "type": ["string", "null"]
-    },
     "type": {
       "title": "Type",
+      "sortIndex": 80,
       "description": "The type of ownership, e.g. beneficial or legal",
       "type": ["string", "null"]
     },
     "share": {
       "title": "Share",
+      "sortIndex": 78,
       "description": "The share of the ownership, e.g. percentage or share count",
       "type": ["string", "null"]
     },
@@ -38,27 +37,33 @@
         "type": ["string", "null"]
     },
     "valuation_date": {
-        "title": "Date of valuation",
+        "title": "Valuation date",
         "description": "When the valuation was made",
         "type": ["string", "null"],
         "format": "date"
     },
     "owner": {
+      "title": "Owner",
       "description": "The owner",
       "$ref": "https://schema.occrp.org/generic/legal_person.json#",
-      "rdfReverse": "properties"
+      "rdfReverse": "assets"
     },
     "asset": {
       "title": "Asset",
       "description": "That which is owned",
-      "$ref": "https://schema.occrp.org/generic/asset.json#"
+      "$ref": "https://schema.occrp.org/generic/asset.json#",
+      "rdfReverse": "ownerships"
     },
     "start_date": {
+      "title": "Start date",
+      "sortIndex": 71,
       "description": "The date on which the relationship began",
       "type": ["string", "null"],
       "format": "date"
     },
     "end_date": {
+      "title": "End date",
+      "sortIndex": 70,
       "description": "The date on which the relationship ended",
       "type": ["string", "null"],
       "format": "date"

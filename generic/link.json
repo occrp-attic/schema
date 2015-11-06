@@ -5,15 +5,17 @@
   "description": "A URL",
   "type": "object",
   "inline": true,
+  "required": ["url"],
   "properties": {
     "url": {
+      "title": "URL",
       "description": "A URL",
       "type": "string",
       "format": "uri",
-      "required": true,
       "rdfType": "id"
     },
     "note": {
+      "title": "Note",
       "description": "A note, e.g. 'Wikipedia page'",
       "type": ["string", "null"]
     }

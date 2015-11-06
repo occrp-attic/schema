@@ -3,6 +3,7 @@
   "id": "https://schema.occrp.org/generic/legal_person.json#",
   "title": "Legal Person",
   "description": "An individual or company",
+  "sortIndex": 60,
   "type": "object",
   "faIcon": "fa-user-secret",
   "oneOf": [
@@ -10,6 +11,7 @@
   ],
   "properties": {
     "assets": {
+      "title": "Assets",
       "type": "array",
       "rdfReverse": "owner",
       "items": {
