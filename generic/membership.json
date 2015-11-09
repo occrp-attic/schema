@@ -8,7 +8,7 @@
   "type": "object",
   "faIcon": "fa-link",
   "inline": false,
-  "indexed": false,
+  "graph": "edge",
   "properties": {
     "id": {
       "title": "ID",
