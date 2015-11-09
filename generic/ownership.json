@@ -54,7 +54,7 @@
       "description": "That which is owned",
       "sortIndex": 92,
       "$ref": "https://schema.occrp.org/generic/asset.json#",
-      "rdfReverse": "ownerships"
+      "rdfReverse": "owners"
     },
     "start_date": {
       "title": "Start date",

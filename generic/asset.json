@@ -31,7 +31,7 @@
         "type": ["string", "null"],
         "format": "date"
     },
-    "ownerships": {
+    "owners": {
         "title": "Owners",
         "type": "array",
         "rdfReverse": "asset",
