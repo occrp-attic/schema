@@ -45,12 +45,14 @@
     "owner": {
       "title": "Owner",
       "description": "The owner",
+      "sortIndex": 91,
       "$ref": "https://schema.occrp.org/generic/legal_person.json#",
       "rdfReverse": "assets"
     },
     "asset": {
       "title": "Asset",
       "description": "That which is owned",
+      "sortIndex": 92,
       "$ref": "https://schema.occrp.org/generic/asset.json#",
       "rdfReverse": "ownerships"
     },
