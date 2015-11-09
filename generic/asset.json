@@ -6,6 +6,7 @@
   "description": "An asset owned by one or several owners",
   "type": "object",
   "faIcon": "fa-map",
+  "graph": "node",
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/any.json#"}
   ],

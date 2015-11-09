@@ -7,6 +7,7 @@
   "sortIndex": 90,
   "type": "object",
   "faIcon": "fa-suitcase",
+  "graph": "node",
   "allOf": [
       {"$ref": "https://schema.occrp.org/generic/organization.json#"},
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}

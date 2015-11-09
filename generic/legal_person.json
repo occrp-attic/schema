@@ -6,6 +6,7 @@
   "sortIndex": 60,
   "type": "object",
   "faIcon": "fa-user-secret",
+  "graph": "node",
   "oneOf": [
     {"$ref": "https://schema.occrp.org/generic/any.json#"}
   ],

@@ -8,6 +8,7 @@
   "type": "object",
   "faIcon": "fa-link",
   "inline": false,
+  "indexed": false,
   "properties": {
     "id": {
       "title": "ID",

@@ -7,6 +7,7 @@
   "sortIndex": 100,
   "type": "object",
   "faIcon": "fa-user",
+  "graph": "node",
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/legal_person.json#"}
   ],
