@@ -8,7 +8,7 @@
   "type": "object",
   "faIcon": "fa-suitcase",
   "graph": "node",
-  "allOf": [
+  "anyOf": [
       {"$ref": "https://schema.occrp.org/generic/organization.json#"},
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],
@@ -74,6 +74,5 @@
         "$ref": "https://schema.occrp.org/generic/industry_code.json#"
       }
     }
-  },
-  "additionalProperties": false
+  }
 }
