@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/legal_person.json#",
   "title": "Legal Person",
+  "plural": "Legal Persons",
   "description": "An individual or company",
   "sortIndex": 60,
   "type": "object",
