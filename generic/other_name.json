@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/other_name.json#",
   "title": "Other name",
-  "plural": "Other names",
+  "plural": "Aliases",
   "description": "An alternate or former name",
   "type": "object",
   "inline": true,
