@@ -8,32 +8,38 @@
   "faIcon": "fa-map",
   "graph": "node",
   "oneOf": [
-      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+      {"$ref": "https://schema.occrp.org/generic/entity.json#"}
   ],
   "properties": {
     "register_name": {
         "title": "Register name",
+        "sortIndex": 92,
         "type": ["string", "null"]
     },
     "description": {
+        "sortIndex": 95,
         "title": "Description",
         "type": ["string", "null"]
     },
     "valuation": {
-        "title": "Valuation",
-        "type": ["integer", "null"]
+      "sortIndex": 90,
+      "title": "Valuation",
+      "type": ["integer", "null"]
     },
     "valuation_currency": {
+      "sortIndex": 86,
         "title": "Currency of valuation",
         "type": ["string", "null"]
     },
     "valuation_date": {
+      "sortIndex": 88,
         "title": "Date of valuation",
         "type": ["string", "null"],
         "format": "date"
     },
     "owners": {
         "title": "Owners",
+        "sortIndex": 99,
         "type": "array",
         "rdfReverse": "asset",
         "items": {

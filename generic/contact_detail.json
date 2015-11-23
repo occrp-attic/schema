@@ -2,9 +2,13 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/contact_detail.json#",
   "title": "Contact detail",
+  "plural": "Contact details",
   "description": "A means of contacting an entity",
   "type": "object",
   "inline": true,
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
   "properties": {
     "label": {
       "title": "Label",

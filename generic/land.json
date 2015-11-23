@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/land.json#",
   "title": "Land",
-  "plural": "Lands",
+  "plural": "Land",
   "description": "A parcel of land",
   "sortIndex": 66,
   "type": "object",
