@@ -12,6 +12,7 @@
       {"$ref": "https://schema.occrp.org/generic/organization.json#"},
       {"$ref": "https://schema.occrp.org/generic/asset.json#"}
   ],
+  "required": ["name"],
   "properties": {
     "company_number": {
       "sortIndex": 85,
@@ -61,18 +62,6 @@
     "postal_address": {
       "title": "Postal address",
       "$ref": "https://schema.occrp.org/generic/address.json"
-    },
-    "filings": {
-      "type": "array",
-      "items": {
-        "$ref": "https://schema.occrp.org/generic/filing.json"
-      }
-    },
-    "industry_codes": {
-      "type": "array",
-      "items": {
-        "$ref": "https://schema.occrp.org/generic/industry_code.json#"
-      }
     }
   }
 }
