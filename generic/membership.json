@@ -46,14 +46,6 @@
       "description": "The date on which the relationship ended",
       "type": ["string", "null"],
       "format": "date"
-    },
-    "contact_details": {
-      "title": "Contact details",
-      "description": "Means of contacting the member of the organization",
-      "type": "array",
-      "items": {
-        "$ref": "https://schema.occrp.org/generic/contact_detail.json#"
-      }
     }
   }
 }
