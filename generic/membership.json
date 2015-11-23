@@ -9,13 +9,10 @@
   "faIcon": "fa-link",
   "inline": false,
   "graph": "edge",
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
   "properties": {
-    "id": {
-      "title": "ID",
-      "description": "The membership's unique identifier",
-      "hidden": true,
-      "type": ["string", "null"]
-    },
     "role": {
       "title": "Role",
       "sortIndex": 90,
@@ -56,20 +53,6 @@
       "type": "array",
       "items": {
         "$ref": "https://schema.occrp.org/generic/contact_detail.json#"
-      }
-    },
-    "links": {
-      "description": "URLs to documents about the membership",
-      "type": "array",
-      "items": {
-        "$ref": "https://schema.occrp.org/generic/link.json#"
-      }
-    },
-    "sources": {
-      "description": "URLs to documents from which the resource is derived",
-      "type": "array",
-      "items": {
-        "$ref": "https://schema.occrp.org/generic/link.json#"
       }
     }
   }

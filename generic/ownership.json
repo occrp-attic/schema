@@ -9,13 +9,10 @@
   "faIcon": "fa-link",
   "inline": false,
   "graph": "edge",
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
   "properties": {
-    "id": {
-      "title": "ID",
-      "description": "The ownership's unique identifier",
-      "hidden": true,
-      "type": ["string", "null"]
-    },
     "type": {
       "title": "Type",
       "sortIndex": 80,
