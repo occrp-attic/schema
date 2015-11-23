@@ -12,18 +12,29 @@
       {"$ref": "https://schema.occrp.org/generic/legal_person.json#"}
   ],
   "properties": {
+    "jurisdiction_code": {
+      "title": "Country of birth",
+      "sortIndex": 90,
+      "type": "string",
+      "format": "country-code",
+      "minLength": 2,
+      "maxLength": 5
+    },
     "family_name": {
       "title": "Family name",
+      "sortIndex": 80,
       "description": "One or more family names",
       "type": ["string", "null"]
     },
     "given_name": {
       "title": "Given name",
+      "sortIndex": 82,
       "description": "One or more primary given names",
       "type": ["string", "null"]
     },
     "additional_name": {
       "title": "Secondary given name",
+      "sortIndex": 81,
       "description": "One or more secondary given names",
       "type": ["string", "null"]
     },
@@ -52,17 +63,20 @@
     },
     "gender": {
       "title": "Gender",
+      "sortIndex": 78,
       "description": "A gender",
       "type": ["string", "null"]
     },
     "birth_date": {
       "title": "Birth date",
+      "sortIndex": 86,
       "description": "A date of birth",
       "type": ["string", "null"],
       "format": "date"
     },
     "death_date": {
       "title": "Death date",
+      "sortIndex": 84,
       "description": "A date of death",
       "type": ["string", "null"],
       "format": "date"
@@ -75,17 +89,25 @@
     },
     "summary": {
       "title": "Summary",
+      "sortIndex": 88,
       "description": "A one-line account of a person's life",
       "type": ["string", "null"]
     },
     "biography": {
       "title": "Biography",
+      "sortIndex": 76,
       "description": "An extended account of a person's life",
       "type": ["string", "null"]
     },
     "residential_address": {
       "title": "Residential address",
       "$ref": "https://schema.occrp.org/generic/address.json#"
+    },
+    "other_names": {
+      "description": "Alternate or former names",
+      "rdfReverse": "person",
+      "type": "array",
+      "items": {"$ref": "https://schema.occrp.org/generic/other_name.json#"}
     },
     "postal_address": {
       "title": "Postal address",

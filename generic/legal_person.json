@@ -29,12 +29,6 @@
       "items": {
         "$ref": "https://schema.occrp.org/generic/membership.json#"
       }
-    },
-    "other_names": {
-      "description": "Alternate or former names",
-      "rdfReverse": "entity",
-      "type": "array",
-      "items": {"$ref": "https://schema.occrp.org/generic/other_name.json#"}
     }
   }
 }
