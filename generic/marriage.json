@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://schema.occrp.org/generic/marriage.json#",
+  "title": "Marriage",
+  "plural": "Marriages",
+  "sortIndex": 35,
+  "type": "object",
+  "faIcon": "fa-link",
+  "inline": false,
+  "graph": "edge",
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
+  "properties": {
+    "partner1": {
+      "title": "Partner 1",
+      "sortIndex": 90,
+      "$ref": "https://schema.occrp.org/generic/person.json#",
+      "rdfReverse": "marriages1"
+    },
+    "partner2": {
+      "title": "Partner 2",
+      "sortIndex": 85,
+      "$ref": "https://schema.occrp.org/generic/person.json#",
+      "rdfReverse": "marriages2"
+    },
+    "start_date": {
+      "title": "Start date",
+      "sortIndex": 71,
+      "description": "The date on which the marriage began",
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "end_date": {
+      "title": "End date",
+      "sortIndex": 70,
+      "description": "The date on which the marriage ended",
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "note": {
+      "title": "Note",
+      "sortIndex": 80,
+      "type": ["string", "null"]
+    }
+  }
+}

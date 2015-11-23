@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://schema.occrp.org/generic/parenthood.json#",
+  "title": "Parenthood",
+  "plural": "Parents",
+  "sortIndex": 30,
+  "type": "object",
+  "faIcon": "fa-link",
+  "inline": false,
+  "graph": "edge",
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
+  "properties": {
+    "parent": {
+      "title": "Parent",
+      "sortIndex": 90,
+      "$ref": "https://schema.occrp.org/generic/person.json#",
+      "rdfReverse": "children"
+    },
+    "child": {
+      "title": "Child",
+      "sortIndex": 85,
+      "$ref": "https://schema.occrp.org/generic/person.json#",
+      "rdfReverse": "parents"
+    },
+    "note": {
+      "title": "Note",
+      "sortIndex": 80,
+      "type": ["string", "null"]
+    }
+  }
+}

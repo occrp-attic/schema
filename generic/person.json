@@ -109,6 +109,28 @@
       "type": "array",
       "items": {"$ref": "https://schema.occrp.org/generic/other_name.json#"}
     },
+    "marriages1": {
+      "rdfReverse": "person1",
+      "type": "array",
+      "items": {"$ref": "https://schema.occrp.org/generic/marriage.json#"}
+    },
+    "marriages2": {
+      "rdfReverse": "person2",
+      "type": "array",
+      "items": {"$ref": "https://schema.occrp.org/generic/marriage.json#"}
+    },
+    "parents": {
+      "title": "Parents",
+      "rdfReverse": "child",
+      "type": "array",
+      "items": {"$ref": "https://schema.occrp.org/generic/parenthood.json#"}
+    },
+    "children": {
+      "title": "Children",
+      "rdfReverse": "parent",
+      "type": "array",
+      "items": {"$ref": "https://schema.occrp.org/generic/parenthood.json#"}
+    },
     "postal_address": {
       "title": "Postal address",
       "$ref": "https://schema.occrp.org/generic/address.json#"
