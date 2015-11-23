@@ -1,16 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/legal_person.json#",
-  "title": "Legal Person",
-  "plural": "Legal Persons",
+  "title": "Legal Entity",
+  "plural": "Legal Entities",
   "description": "An individual or company",
   "sortIndex": 60,
   "type": "object",
   "faIcon": "fa-user-secret",
   "graph": "node",
   "oneOf": [
-    {"$ref": "https://schema.occrp.org/generic/any.json#"}
+    {"$ref": "https://schema.occrp.org/generic/entity.json#"}
   ],
+  "required": ["name"],
   "properties": {
     "assets": {
       "title": "Assets",
@@ -28,6 +29,12 @@
       "items": {
         "$ref": "https://schema.occrp.org/generic/membership.json#"
       }
+    },
+    "other_names": {
+      "description": "Alternate or former names",
+      "rdfReverse": "entity",
+      "type": "array",
+      "items": {"$ref": "https://schema.occrp.org/generic/other_name.json#"}
     }
   }
 }
