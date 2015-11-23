@@ -1,23 +1,34 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/link.json#",
-  "title": "Link",
+  "title": "Documents",
   "description": "A URL",
   "type": "object",
+  "faIcon": "fa-file-text",
   "inline": true,
   "required": ["url"],
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
   "properties": {
     "url": {
       "title": "URL",
+      "sortIndex": 97,
       "description": "A URL",
       "type": "string",
-      "format": "uri",
-      "rdfType": "id"
+      "format": "uri"
     },
     "note": {
       "title": "Note",
+      "sortIndex": 98,
       "description": "A note, e.g. 'Wikipedia page'",
       "type": ["string", "null"]
+    },
+    "entity": {
+      "title": "Entity",
+      "sortIndex": 99,
+      "rdfReverse": "links",
+      "$ref": "https://schema.occrp.org/generic/entity.json#"
     }
   }
 }

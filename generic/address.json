@@ -6,6 +6,9 @@
   "description": "An address object",
   "type": "object",
   "inline": true,
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
   "properties": {
     "text": {
       "title": "Text",

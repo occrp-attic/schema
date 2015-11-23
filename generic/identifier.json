@@ -2,9 +2,13 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://schema.occrp.org/generic/identifier.json#",
   "title": "Identifier",
+  "plural": "Identifiers",
   "description": "An issued identifier",
   "type": "object",
   "inline": true,
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
   "properties": {
     "identifier": {
       "title": "Identifier",
