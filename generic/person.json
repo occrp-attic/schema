@@ -114,25 +114,25 @@
       "title": "Family members (1)",
       "rdfReverse": "first_person",
       "type": "array",
-      "items": {"$ref": "https://schema.occrp.org/generic/marriage.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/family.json#"}
     },
     "family_second": {
       "title": "Family members (2)",
       "rdfReverse": "second_person",
       "type": "array",
-      "items": {"$ref": "https://schema.occrp.org/generic/marriage.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/family.json#"}
     },
     "social_first": {
       "title": "Social relationships (1)",
       "rdfReverse": "first_person",
       "type": "array",
-      "items": {"$ref": "https://schema.occrp.org/generic/parenthood.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/social.json#"}
     },
     "social_second": {
       "title": "Social relationships (2)",
       "rdfReverse": "second_person",
       "type": "array",
-      "items": {"$ref": "https://schema.occrp.org/generic/parenthood.json#"}
+      "items": {"$ref": "https://schema.occrp.org/generic/social.json#"}
     },
     "postal_address": {
       "title": "Postal address",
