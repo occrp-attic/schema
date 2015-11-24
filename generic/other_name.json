@@ -5,6 +5,7 @@
   "plural": "Aliases",
   "description": "An alternate or former name",
   "type": "object",
+  "faIcon": "fa-language",
   "inline": true,
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/any.json#"}
@@ -14,6 +15,7 @@
     "person": {
       "sortIndex": 99,
       "title": "Person",
+      "rdfReverse": "other_names",
       "$ref": "https://schema.occrp.org/generic/person.json#"
     },
     "alias": {

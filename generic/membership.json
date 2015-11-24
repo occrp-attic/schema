@@ -12,6 +12,7 @@
   "oneOf": [
       {"$ref": "https://schema.occrp.org/generic/any.json#"}
   ],
+  "required": ["role", "person", "organization"],
   "properties": {
     "role": {
       "title": "Role",

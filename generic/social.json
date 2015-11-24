@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://schema.occrp.org/generic/social.json#",
+  "title": "Social tie",
+  "plural": "Social ties",
+  "sortIndex": 35,
+  "type": "object",
+  "faIcon": "fa-link",
+  "inline": false,
+  "graph": "edge",
+  "oneOf": [
+      {"$ref": "https://schema.occrp.org/generic/any.json#"}
+  ],
+  "required": ["role", "first_person", "second_person"],
+  "properties": {
+    "role": {
+      "title": "Relationship",
+      "sortIndex": 95,
+      "type": ["string", "null"]
+    },
+    "first_person": {
+      "title": "First person",
+      "sortIndex": 90,
+      "$ref": "https://schema.occrp.org/generic/person.json#",
+      "rdfReverse": "social_first"
+    },
+    "second_person": {
+      "title": "Second person",
+      "sortIndex": 85,
+      "$ref": "https://schema.occrp.org/generic/person.json#",
+      "rdfReverse": "social_second"
+    },
+    "start_date": {
+      "title": "Start date",
+      "sortIndex": 71,
+      "description": "The date on which the marriage began",
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "end_date": {
+      "title": "End date",
+      "sortIndex": 70,
+      "description": "The date on which the marriage ended",
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "note": {
+      "title": "Note",
+      "sortIndex": 80,
+      "type": ["string", "null"]
+    }
+  }
+}
