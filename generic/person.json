@@ -83,8 +83,9 @@
       "format": "date"
     },
     "image": {
+      "title": "Image URL",
       "description": "A URL of a head shot",
-      "hidden": true,
+      "sortIndex": -1,
       "type": ["string", "null"],
       "format": "uri"
     },
