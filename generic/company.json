@@ -25,6 +25,11 @@
       "title": "Current status",
       "type": ["string", "null"]
     },
+    "sector": {
+      "title": "Sector",
+      "sortIndex": 83,
+      "type": ["string", "null"]
+    },
     "company_type": {
       "title": "Company type",
       "sortIndex": 82,
