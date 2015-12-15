@@ -5,6 +5,7 @@
   "plural": "Assets",
   "description": "An asset owned by one or several owners",
   "type": "object",
+  "sortIndex": 63,
   "faIcon": "fa-map",
   "graph": "node",
   "oneOf": [
