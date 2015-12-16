@@ -29,6 +29,13 @@
       "items": {
         "$ref": "https://schema.occrp.org/generic/membership.json#"
       }
+    },
+    "image": {
+      "title": "Image URL",
+      "description": "A URL of a head shot",
+      "sortIndex": -1,
+      "type": ["string", "null"],
+      "format": "uri"
     }
   }
 }
